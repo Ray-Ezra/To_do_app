@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import TodoList from './TodoList';
 import FilterButtons from './FilterButtons';
 import { BsSearch, BsPlus } from 'react-icons/bs';
-import { addTodo, updateSearchTerm } from '../redux/actions';
+import { addTodo, updateSearchTerm } from '../Redux/action';
 
 const Todo = () => {
   const todos = useSelector((state) => state.todos);

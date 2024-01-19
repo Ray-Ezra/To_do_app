@@ -4,7 +4,7 @@ import {
   removeTodo,
   markCompleted,
   markIncomplete,
-} from '../redux/actions';
+} from '../Redux/action';
 import { FaToggleOn, FaToggleOff, FaTrash, FaCheck, FaTimes } from 'react-icons/fa';
 import { FiEdit } from 'react-icons/fi';
 
